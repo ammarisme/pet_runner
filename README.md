@@ -3,7 +3,7 @@
 
 https://wokwi.com/projects/405309893587078145
 
-This project aims to develop an ESP32-based pet collar that tracks a pet's movement and sends relevant data to a remote server. The collar connects to an open Wi-Fi network and uses BLE to communicate with a nearby robot device. The project includes features like RSSI (signal strength) monitoring, distance calculation using an accelerometer, and MQTT communication.
+This project aims to develop an ESP32-based pet collar and a robot that work together to track a pet's movement and send relevant data to a remote server. Both the collar and the robot connect to an open Wi-Fi network and use BLE for local communication. They communicate with each other via an MQTT server. The project includes features like RSSI (signal strength) monitoring, distance calculation using an accelerometer, and MQTT communication. Pairs of collars and bots are registered via an API, which creates an RL session for each new registration and keeps it active until either the goal is achieved or it times out.
 
 ## Components Used
 - ESP32 Development Board x 2
@@ -19,9 +19,6 @@ This project aims to develop an ESP32-based pet collar that tracks a pet's movem
 - HTTPClient
 - Adafruit_Sensor
 - Adafruit_ADXL345_U
-
-
-```
 
 ## Setup Instructions
 
@@ -73,6 +70,7 @@ idf.py monitor
 - **Accelerometer Data:** Uses the ADXL345 accelerometer to measure acceleration and calculate displacement.
 - **MQTT Communication:** Publishes RSSI and displacement data to a specified MQTT channel every 5 seconds.
 - **HTTP Communication:** Registers the device with a robot via an HTTP POST request to receive the MQTT channel ID.
+- **RL Session Management:** The API creates and manages RL sessions for each collar and bot pair, keeping the session active until the goal is achieved or it times out.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
