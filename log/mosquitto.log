@@ -1,0 +1,31 @@
+1722785385: mosquitto version 2.0.18 starting
+1722785385: Config loaded from /mosquitto/config/mosquitto.conf.
+1722785385: Opening ipv4 listen socket on port 1883.
+1722785385: Opening ipv6 listen socket on port 1883.
+1722785385: mosquitto version 2.0.18 running
+1722785408: New connection from 172.17.0.1:50900 on port 1883.
+1722785408: New connection from 172.17.0.1:50898 on port 1883.
+1722785408: Client <unknown> closed its connection.
+1722785408: Client <unknown> disconnected due to protocol error.
+1722785409: New connection from 172.17.0.1:50912 on port 1883.
+1722785409: New connection from 172.17.0.1:50924 on port 1883.
+1722785409: Client <unknown> disconnected due to protocol error.
+1722785409: Client <unknown> disconnected due to protocol error.
+1722785409: New connection from 172.17.0.1:50926 on port 1883.
+1722785409: Client <unknown> disconnected due to protocol error.
+1722785414: New connection from 172.17.0.1:59614 on port 1883.
+1722785414: Client <unknown> disconnected due to protocol error.
+1722785414: New connection from 172.17.0.1:59624 on port 1883.
+1722785417: Client <unknown> closed its connection.
+1722785561: New connection from 127.0.0.1:39078 on port 1883.
+1722785561: New client connected from 127.0.0.1:39078 as auto-961D4E69-1824-1E7C-37EF-43E422CC47D2 (p2, c1, k60).
+1722785594: New connection from 127.0.0.1:44664 on port 1883.
+1722785594: New client connected from 127.0.0.1:44664 as auto-4ED5210A-159F-C10B-1D77-39711A5F3D62 (p2, c1, k60).
+1722785594: Client auto-4ED5210A-159F-C10B-1D77-39711A5F3D62 disconnected.
+1722785599: New connection from 127.0.0.1:44678 on port 1883.
+1722785599: New client connected from 127.0.0.1:44678 as auto-8D6AC3FA-B081-02D9-2CA5-B6402A371E51 (p2, c1, k60).
+1722785599: Client auto-8D6AC3FA-B081-02D9-2CA5-B6402A371E51 disconnected.
+1722785601: Client auto-961D4E69-1824-1E7C-37EF-43E422CC47D2 disconnected.
+1722787186: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1722788986: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1722790787: Saving in-memory database to /mosquitto/data//mosquitto.db.

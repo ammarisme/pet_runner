@@ -1,0 +1,1 @@
+docker run -d --name mosquitto -p 1883:1883 -p 9001:9001 -v "C:\Users\Ammar Ameerdeen\Desktop\github\cat_runner\config\mosquitto.conf:/mosquitto/config/mosquitto.conf" -v "C:\Users\Ammar Ameerdeen\Desktop\github\cat_runner\data:/mosquitto/data" -v "C:\Users\Ammar Ameerdeen\Desktop\github\cat_runner\log:/mosquitto/log" eclipse-mosquitto
