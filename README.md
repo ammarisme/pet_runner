@@ -1,6 +1,8 @@
 
 # Pet Collar & Bot Project (IoT / RL)
 
+https://wokwi.com/projects/405309893587078145
+
 This project aims to develop an ESP32-based pet collar that tracks a pet's movement and sends relevant data to a remote server. The collar connects to an open Wi-Fi network and uses BLE to communicate with a nearby robot device. The project includes features like RSSI (signal strength) monitoring, distance calculation using an accelerometer, and MQTT communication.
 
 ## Components Used
